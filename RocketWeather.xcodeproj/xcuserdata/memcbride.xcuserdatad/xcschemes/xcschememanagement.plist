@@ -4,10 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>RocketWeather.xcscheme_^#shared#^_</key>
+		<key>RocketWeather - Canada.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>RocketWeather - Europe.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>RocketWeather.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9116958C2C8A128200134C61</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9116959C2C8A128400134C61</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>911695A62C8A128400134C61</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

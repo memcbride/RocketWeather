@@ -14,7 +14,7 @@ import SwiftUI
 struct RocketWeatherApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ForecastView()
         }
     }
 }
