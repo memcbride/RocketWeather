@@ -2,7 +2,7 @@
 // Project: RocketWeather
 // File: AttributionView.swift
 // Created by Mark McBride on 2024.09.05
-// Last Updated:  2024.09.05
+// Last Updated:  2024.09.06
 // GitHub: https://github.com/memcbride
 // ------------------------------------------------------
 // Copyright © 2024 by MacModeler.  All rights reserved.
