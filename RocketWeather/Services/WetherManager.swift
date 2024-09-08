@@ -2,7 +2,7 @@
 // Project: RocketWeather
 // File: WetherManager.swift
 // Created by Mark McBride on 2024.09.05
-// Last Updated:  2024.09.06
+// Last Updated:  2024.09.07
 // GitHub: https://github.com/memcbride
 // ------------------------------------------------------
 // Copyright © 2024 by MacModeler.  All rights reserved.
@@ -42,6 +42,18 @@ class WeatherManager {
         }.value
         return hourlyForecast
     }
+    
+    func dailyForecast (for location: CLLocation) async -> Forecast<DayWeather>? {
+        let dailyForecast = await Task.detached(priority: .userInitiated) {
+            let forecast = try? await self.service.weather(
+                for: location,
+                including: .daily
+            )
+            return forecast
+        }.value
+        return dailyForecast
+    }
+    
     func weatherAttribution() async -> WeatherAttribution? {
         let attribution = await Task(priority: .userInitiated) {
             return try? await self.service.attribution
