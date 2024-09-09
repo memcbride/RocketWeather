@@ -2,7 +2,7 @@
 // Project: RocketWeather
 // File: SerachOverlay.swift
 // Created by Mark McBride on 2024.09.08
-// Last Updated:  2024.09.08
+// Last Updated:  2024.09.09
 // GitHub: https://github.com/memcbride
 // ------------------------------------------------------
 // Copyright © 2024 by MacModeler.  All rights reserved.
@@ -40,6 +40,7 @@ struct SearchOverlay: View {
                 List(searchService.cities) { city in
                     Button {
                         store.cities.append(city)
+                        store.saveCities()
                         isSearching = false
                     } label: {
                         Text(city.name)
