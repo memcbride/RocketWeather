@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		91EAA3732C8FB79A006659A1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 91EAA3722C8FB79A006659A1 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9116959E2C8A128400134C61 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		9116958D2C8A128200134C61 /* RocketWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9116959D2C8A128400134C61 /* RocketWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		911695A72C8A128400134C61 /* RocketWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EAA3722C8FB79A006659A1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		911695842C8A128200134C61 = {
 			isa = PBXGroup;
 			children = (
+				91EAA3722C8FB79A006659A1 /* README.md */,
 				9116958F2C8A128200134C61 /* RocketWeather */,
 				911695A02C8A128400134C61 /* RocketWeatherTests */,
 				911695AA2C8A128400134C61 /* RocketWeatherUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91EAA3732C8FB79A006659A1 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
